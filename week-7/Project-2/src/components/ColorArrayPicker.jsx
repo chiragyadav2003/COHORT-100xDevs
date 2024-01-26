@@ -2,7 +2,7 @@ import React from 'react'
 
 function ColorArrayPicker({ array, setColor }) {
     return (
-        <div style={{ display: "flex", padding: "20px", backgroundColor: "white", justifyContent: "space-between", borderRadius: "40px", marginTop: "80%", marginLeft: "70px", marginRight: "70px" }}>
+        <div style={{ display: "flex", padding: "10px", backgroundColor: "white", justifyContent: "space-between", borderRadius: "40px", marginTop: "70%", marginLeft: "70px", marginRight: "70px" }}>
             {array.map((color) => {
                 return <button onClick={() => {
                     setColor(color)
