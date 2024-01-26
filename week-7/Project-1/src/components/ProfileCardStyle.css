@@ -1,0 +1,42 @@
+.profile-container {
+  background-color: teal;
+  background-image: url("https://img.freepik.com/premium-photo/vintage-grunge-pattern-decoration-wall-floor_1258-29220.jpg?size=626&ext=jpg"); /* Replace with your pattern image */
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.downBorder {
+  height: 10%;
+  width: 100%;
+  border-bottom: 2px solid grey;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+}
